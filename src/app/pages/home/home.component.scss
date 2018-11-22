@@ -1,0 +1,60 @@
+section{
+   height: 100%;
+    width: 95%;
+    // overflow: hidden;
+   
+} 
+/deep/owl-carousel{
+    height: 100%;
+}
+
+.owl-theme .owl-controls .owl-page{
+    position: fixed;
+    top: 10px;
+}
+/deep/.home-slider {
+    min-height: 500px;
+    height: 100%;
+    .owl-stage-outer,img{
+        min-height: 100%;
+        height: 100%;
+    } 
+
+}
+/deep/.home-slider .owl-dots{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+/deep/.description-box{
+    border: 1px solid #ffffff59;
+    min-height: 300px;
+    width: 600px;
+    position: absolute;
+    background-color: #0000008c;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 70px;
+    padding: 10px;
+    img{
+        display:block;
+        margin:auto;
+        height: 230px;
+    }
+    p{
+        text-align:center;
+        color:white;
+
+    }
+    .read-more-btn{
+        background-color: #f26f24;
+        color:white;
+        display:block;
+        margin:auto;
+    }
+    .btn-round{
+        border-radius: 30px;
+    }
+}

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body, html {
+    height: 100%;
+  }
+  .orange-background{
+    background-color: #f36f24;
+  }
+  .orange-color{
+    color: #f36f24;
+  }
+.pointer{
+    cursor: pointer;
+}
+.wc{
+    color:white;
+}
