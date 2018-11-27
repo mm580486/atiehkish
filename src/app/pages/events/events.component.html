@@ -1,3 +1,49 @@
-<p>
-  events works!
-</p>
+<div class="row">
+
+
+    <div class="col-lg-11 nopadding">
+    <section class="container p-3">
+  <h1>
+    رویدادها 
+  </h1>
+  
+  
+  <article class="card">
+    <div class="card-body">
+      <div class=" top-product">
+          <owl-carousel [options]="mySlideOptions" [items]="images" [carouselClasses]="['owl-theme', 'sliding','home-slider']" >
+              <div class="item" *ngFor="let image of mySlideImages;let i = index">
+               <div>
+                 <img src={{image}}/>
+               </div>
+              </div>
+             </owl-carousel>
+      </div>
+      <hr>
+  
+      <div class="row products">
+  
+        <div *ngFor='let product of products' style="margin-top:10px;" [routerLink]="['/product', product.permalink]" class="card col-xs-12 col-lg-3 col-lg-3 col-lg-3 col-lg-3 col-lg-3">
+          
+          <img src="https://picsum.photos/200/300" alt="">
+  
+        <h3 style="padding-top:10px;">{{ product.title }}</h3>
+        <p style="text-align:justify;">
+         {{ product.short_description }}
+         <small>
+            بیشتر بدانید
+          </small>
+        </p>
+  
+        </div>
+  
+      </div>
+    </div>
+  </article>
+  
+    </section>
+    </div>
+    <div class="col-lg-1 nopadding">
+      <app-public></app-public>
+    </div>
+    </div>

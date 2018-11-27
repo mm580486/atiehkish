@@ -1,0 +1,67 @@
+<div class="row">
+
+
+  <div class="col-lg-11 nopadding">
+  <section class="container p-3">
+<h3>
+  {{ product.title }}
+</h3>
+
+
+<article class="card">
+  <div class="card-body">
+    <div class="top-product" [style.background-image]="'url('+product.background_image_url+')'">
+
+      <div class="description">
+        <img [src]="product.logo_url" alt="">
+        <br>
+        <p>
+          {{ product.slogan }}
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xs-12 col-lg-3 contract">
+        <a class="btn btn-danger btn-block" [href]="product.url" target="_blank">
+          {{ product.url }}
+        <i class="fa fa-link"></i>
+        </a>
+        <a class="btn btn-info btn-block" [href]="'tel:'+product.phone">{{ product.phone }}
+          <i class="fa fa-phone"></i>
+        </a>
+      </div>
+      <div class="col-xs-12 col-lg-9 desc">
+          <p>
+            {{ product.description }}
+          </p>
+      </div>
+    </div>
+
+
+
+  <owl-carousel [options]="mySlideOptions" [items]="products" [carouselClasses]="['owl-theme', 'sliding','home-slider']" >
+      <div class="item" *ngFor="let item of products;let i = index">
+       <div [routerLink]="['/product',item.permalink]">
+         <img [src]='item.logo_url' class='logo_slide' />
+         <div class="title_slide">
+           {{ item.title }}
+         </div>
+       </div>
+      </div>
+     </owl-carousel>
+  </div>
+
+</article>
+
+
+
+
+
+  </section>
+  </div>
+  <div class="col-lg-1 nopadding">
+    <app-public></app-public>
+  </div>
+  </div>

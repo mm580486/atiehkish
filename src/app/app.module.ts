@@ -12,6 +12,7 @@ import { EventsComponent } from './pages/events/events.component';
 import { StartupComponent } from './pages/startup/startup.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { ProductComponent } from './pages/product/product.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
     EventsComponent,
     StartupComponent,
     ServicesComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

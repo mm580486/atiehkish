@@ -1,0 +1,40 @@
+.contact-pannel{
+    background-color: #0000004d !important;
+    label{
+        margin:0;
+        i{
+            float:right;
+            margin: 5px;
+        }
+    }
+    .form-control{
+        height: 100%;
+    }
+}
+
+.stickFix{
+    width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 37px;
+  bottom: 0px;
+  background: #2980b9;
+  padding: 18px;
+  color: white;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  span{
+      display: none;
+      float:right;
+  }
+  i{
+      height:50px;
+      float:left;
+  }
+  &:hover{
+      width:200px;
+      span{
+          display:block;
+      }
+  }
+}

@@ -1,3 +1,4 @@
+import { ProductComponent } from './pages/product/product.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PublicComponent } from './layoutes/public/public.component';
@@ -13,12 +14,12 @@ const routes: Routes = [
 
   {
     path: '',
-    component: PublicComponent,
     children: [
       { path: '', component: HomeComponent},
       { path: 'contact-us', component: ContactUsComponent},
       { path: 'services', component: ServicesComponent},
       { path: 'products', component: ProductsComponent},
+      { path: 'product/:permalink', component: ProductComponent},
       { path: 'events', component: EventsComponent},
       { path: 'startup', component: StartupComponent},
       { path: '**', component: NotfoundComponent},

@@ -1,16 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "yekan";
+  src: url("/assets/fonts/IRANSansWeb(FaNum).woff2") format("woff2"),
+       url("/assets/fonts/IRANSansWeb(FaNum).woff") format("woff"),
+       url('/assets/fonts/IRANSansWeb(FaNum)_Light.ttf') format("ttf");
+}
+p,h1,h2,h3,h4,h5,h6,div,span,button,input,label,li{
+  font-family: "yekan";
+}
 body, html {
-    height: 100%;
-  }
-  .orange-background{
-    background-color: #f36f24;
-  }
-  .orange-color{
-    color: #f36f24;
-  }
+  height: 100%;
+}
+.orange-background{
+  background-color: #f36f24;
+}
+.orange-color{
+  color: #f36f24;
+}
 .pointer{
-    cursor: pointer;
+  cursor: pointer;
 }
 .wc{
-    color:white;
+  color:white;
+}
+section{
+direction: rtl;
+text-align:right;
+
+}
+.nopadding {
+padding: 0 !important;
+margin: 0 !important;
+}
+
+.col-menu-1{
+flex: 0 0 5.16666%;
+max-width: 5.16666%;
+}
+
+owl-carousel *{
+direction:ltr;
+}
+.bgwhite{
+  background-color: white;
 }

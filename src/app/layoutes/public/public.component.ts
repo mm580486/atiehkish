@@ -1,3 +1,4 @@
+import { products } from './../../products';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,18 +7,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./public.component.scss']
 })
 export class PublicComponent implements OnInit {
-
-  constructor() { }
+  public products = [];
+  constructor() {
+    this.products = products;
+   }
 
   ngOnInit() {
 
   }
 
   toggleStyle() {
+    $('.secoundMenu').stop(true);
+
     $('.secoundMenu').animate({
         width: 'toggle'
       }
      );
+
   }
 
 }

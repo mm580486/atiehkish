@@ -44,6 +44,7 @@ section{
         height: 230px;
     }
     p{
+        padding:10px;
         text-align:center;
         color:white;
 
@@ -56,5 +57,19 @@ section{
     }
     .btn-round{
         border-radius: 30px;
+    }
+}
+
+@media(max-width: 500px){
+    /deep/.at_logo{
+  
+        display:block;
+        margin:auto;
+    }
+    /deep/.description-box{
+        text-align:center !important;
+    }
+    /deep/.description-box{
+        width:auto !important;
     }
 }
