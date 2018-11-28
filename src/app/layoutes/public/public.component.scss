@@ -41,10 +41,13 @@
 *, *:before, *:after { box-sizing: border-box; }
 
 .nav-mobile {
+  z-index: 99999999999;
     *{
         direction: rtl !important;
+   
         
     }
+   
     display:none;
   background: #446CB3;
   color: #FFF;

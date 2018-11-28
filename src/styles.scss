@@ -50,3 +50,14 @@ direction:ltr;
     height: 200px;
   }
 }
+@media (max-width: 500px){
+  .top-product{
+  .description{
+    position: relative;
+left: 0;
+right: 0;
+width: 100% !important;
+height: 100% !important;
+  }
+}
+}

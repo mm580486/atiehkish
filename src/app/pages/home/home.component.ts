@@ -23,15 +23,15 @@ export class HomeComponent implements OnInit {
 
   }
 
-  toggleSize(i) {
-    if ($('#read_' + i).html() === 'کمتر بخوانید') {
-      $('#desc-' + i).animate({height: 450}, 500);
-      $('#read_' + i).html('بیشتر بخوانید');
+  toggleSize() {
+    if ($('#read_btn').html() === 'کمتر بخوانید') {
+      $('.description-box').animate({height: 450}, 500);
+      $('#read_btn').html('بیشتر بخوانید');
 
       $('.more_content').slideUp();
     } else {
-      $('#desc-' + i).animate({height: 800}, 500);
-      $('#read_' + i).html('کمتر بخوانید');
+      $('.description-box').animate({height: 800}, 500);
+      $('#read_btn').html('کمتر بخوانید');
       $('.more_content').slideDown();
     }
 
