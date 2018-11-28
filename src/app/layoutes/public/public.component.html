@@ -74,7 +74,7 @@
       <img src="assets/img/madar.png" alt="">
     </li>
     <li>
-      <span class="pointer orange-background" id="secoundMenuToggle" (click)="toggleStyle()" style="  
+      <span class="pointer orange-background" id="secoundMenuToggle" (mouseenter)="toggleStyle()" (click)="toggleStyle()" style="  
       padding: 10px;
       border-radius: 50%;
       position: absolute;
@@ -89,27 +89,27 @@ color: white;" aria-hidden="true" fill='#ffff' data-prefix="fas" data-icon="bars
       <div class="secoundMenu orange-background">
           <ul>
 
-  <li [routerLink]='["/products"]'>
+  <li [routerLink]='["/products"]' (click)="toggleStyle()">
     <img src="assets/img/3.png" alt="">
     <span class="wc">محصولات</span>
   </li>
 
-  <li [routerLink]="['/services']">
+  <li [routerLink]="['/services']" (click)="toggleStyle()">
       <img src="assets/img/4.png" alt="">
       <span class="wc">خدمات</span>
     </li>
 
-    <li [routerLink]="['/startup']">
+    <li [routerLink]="['/startup']" (click)="toggleStyle()">
         <img src="assets/img/5.png" alt="">
         <span class="wc">استارت اپ</span>
       </li>
   
 
-      <li [routerLink]="['/events']">
+      <li (click)="toggleStyle()" [routerLink]='["/events"]'>
           <img src="assets/img/6.png" alt="">
           <span class="wc">رویدادها</span>
         </li>
-        <li [routerLink]="['/contact-us']" routerLinkActive="router-link-active" >
+        <li [routerLink]="['/contact-us']" routerLinkActive="router-link-active" (click)="toggleStyle()" >
             <img src="assets/img/7.png" alt="">
             <span class="wc">تماس با ما</span>
           </li>

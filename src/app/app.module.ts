@@ -13,6 +13,9 @@ import { StartupComponent } from './pages/startup/startup.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { ProductComponent } from './pages/product/product.component';
+import { ServiceComponent } from './pages/service/service.component';
+import { EventComponent } from './pages/event/event.component';
+import { StartComponent } from './pages/start/start.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ProductComponent } from './pages/product/product.component';
     StartupComponent,
     ServicesComponent,
     NotfoundComponent,
-    ProductComponent
+    ProductComponent,
+    ServiceComponent,
+    EventComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,

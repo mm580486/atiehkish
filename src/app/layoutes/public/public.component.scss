@@ -6,7 +6,9 @@
       width: 100px;
       display: none;
       padding-top:20px;
-      ul{
+
+      ul{ 
+
         display: block;
         margin: auto;
         padding: 17px;
@@ -14,6 +16,9 @@
         margin-top: 200px;
         list-style: none;
         li{
+          display: block;
+    width: 100%;
+    min-width: 76px;
             text-align: center;
             cursor: pointer;
             span{
@@ -21,6 +26,7 @@
             }
         &:hover{
             background-color: #3300ff14;
+         
         }
         }
       }

@@ -1,5 +1,6 @@
+import { services } from './../../services';
 import { Component, OnInit } from '@angular/core';
-import { products } from '../../products';
+
 
 @Component({
   selector: 'app-services',
@@ -15,7 +16,7 @@ export class ServicesComponent implements OnInit {
   images: any;
   public products: any;
   constructor() {
-    this.products = products;
+    this.products = services;
    }
 
   ngOnInit() {

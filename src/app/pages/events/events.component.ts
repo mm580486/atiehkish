@@ -1,5 +1,6 @@
+import { events } from './../../events';
 import { Component, OnInit } from '@angular/core';
-import { products } from '../../products';
+
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',
@@ -14,7 +15,7 @@ export class EventsComponent implements OnInit {
   images: any;
   public products: any;
   constructor() {
-    this.products = products;
+    this.products = events;
    }
 
   ngOnInit() {

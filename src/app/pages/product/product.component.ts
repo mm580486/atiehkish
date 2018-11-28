@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { products } from '../../products';
 @Component({
   selector: 'app-product',
@@ -11,18 +11,16 @@ export class ProductComponent implements OnInit {
   public product: any;
   mySlideOptions: any;
 
-  constructor(private route: ActivatedRoute) {
-
-    this.products = products;
-    this.mySlideOptions = {items: 3, dots: false, nav: true, margin: 10};
-
-
+  constructor(private route: Router , private router: ActivatedRoute) {
+    this.route.events.subscribe(params => {
+      this.products = products;
+      this.mySlideOptions = {items: 3, dots: false, nav: true, margin: 10};
+      this.product =  products.filter(x => x.permalink === this.router.snapshot.paramMap.get('permalink'))[0];
+  });
    }
 
   ngOnInit() {
-    this.route.queryParams.subscribe(params => {
-      this.product =  products.filter(x => x.permalink === this.route.snapshot.paramMap.get('permalink'))[0];
-  });
+
   }
 
 }

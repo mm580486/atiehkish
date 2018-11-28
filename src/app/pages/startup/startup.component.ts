@@ -1,5 +1,6 @@
+import { startup } from './../../startup';
 import { Component, OnInit } from '@angular/core';
-import { products } from '../../products';
+
 @Component({
   selector: 'app-startup',
   templateUrl: './startup.component.html',
@@ -13,7 +14,7 @@ export class StartupComponent implements OnInit {
   images: any;
   public products: any;
   constructor() {
-    this.products = products;
+    this.products = startup;
    }
 
   ngOnInit() {
