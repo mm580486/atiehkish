@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
 
   toggleSize() {
     if ($('#read_btn').html() === 'کمتر بخوانید') {
-      $('.description-box').animate({height: 450}, 500);
+      $('.description-box').animate({height: 500}, 500);
       $('#read_btn').html('بیشتر بخوانید');
 
       $('.more_content').slideUp();

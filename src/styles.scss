@@ -17,6 +17,16 @@ body, html {
 .orange-color{
   color: #f36f24;
 }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: #f36f24 !important;
+}
+.owl-theme .owl-dots .owl-dot:not(.active) span{
+  background: #249897 !important;
+  width: 5px !important;
+  height: 5px !important;
+}
+
 .pointer{
   cursor: pointer;
 }

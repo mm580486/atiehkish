@@ -34,8 +34,8 @@ export class ProductsComponent implements OnInit {
       itemsMobile: [500, 1],
       responsive : {
         480 : { items : 1  }, // from zero to 480 screen width 4 items
-        768 : { items : 2  }, // from 480 screen widthto 768 6 items
-        1024 : { items : 4 }
+        768 : { items : 1 }, // from 480 screen widthto 768 6 items
+        1024 : { items : 1 }
       }
     };
     this.myCarouselOptions = {items: 1, dots: true, nav: true,
