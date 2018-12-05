@@ -99,19 +99,22 @@
       <img src="assets/img/madar.png" alt="">
     </li>
     <li>
-      <span class="pointer orange-background" id="secoundMenuToggle" (mouseenter)="toggleStyle()" (click)="toggleStyle()" style="  
-      padding: 10px;
-      border-radius: 50%;
+      <span class="pointer orange-background" id="secoundMenuToggle" (mouseenter)="toggleStyle()"  (click)="toggleStyle()" style="padding-top: 10px;
+      border-radius: 100%;
       position: absolute;
       left: -19px;
-      margin-top: 15px;z-index: 100;">
+      margin-top: 19px;
+      z-index: 100;
+      width: 40px;
+      text-align: center;
+      height: 40px;">
 
 <svg style="    width: 20px;
 height: 20px;
 fill: white;
 color: white;" aria-hidden="true" fill='#ffff' data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
       </span>
-      <div class="secoundMenu orange-background">
+      <div (mouseout)="toggleStyle()" class="secoundMenu orange-background"  >
           <ul>
 
   <li [routerLink]='["/products"]' (click)="toggleStyle()">

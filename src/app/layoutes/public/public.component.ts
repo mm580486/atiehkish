@@ -35,6 +35,7 @@ export class PublicComponent implements OnInit {
     $('#menu-toggle').toggleClass('active');
   }
 
+
   toggleStyle() {
     $('.secoundMenu').stop(true);
 

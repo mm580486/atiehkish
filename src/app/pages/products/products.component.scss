@@ -4,8 +4,14 @@
     
     }
 
-    height: 300px;
+    height: 225px;
 
+}
+.subParent{
+    background: url(https://stmed.net/sites/default/files/transparent-cubes-wallpapers-25325-3575516.jpg) no-repeat fixed;
+}
+.Parent{
+    background: #e7e7e7e0;
 }
 /deep/.owl-prev,/deep/.owl-next{
     zoom: 8;
@@ -37,12 +43,14 @@
         height: 100px;
     }
     .card {
+        padding: 50px;
+
         h3{
             text-align:center;
             color: black;
         }
         small{
-            color:#27ae60;
+            color:#69b8b5;
             cursor: pointer;
             display:block;
             text-align:center;
