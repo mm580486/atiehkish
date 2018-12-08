@@ -28,9 +28,9 @@
 
     <div class="row products">
 
-      <div *ngFor='let product of products' style="margin-top:10px;" [routerLink]="['/event', product.permalink]" class="card col-xs-12 col-lg-3 col-lg-3 col-lg-3 col-lg-3 col-lg-4">
+      <div *ngFor='let product of products' style="margin-top:10px;" class="card col-xs-12 col-lg-3 col-lg-3 col-lg-3 col-lg-3 col-lg-4">
         
-        <img [src]="product.logo_url" alt="">
+        <img [src]="product.logo_url" style="height:auto;" alt="">
 
       <h3 style="padding-top:10px;color: #a9a9a9;">{{ product.title }}</h3>
       <h4 style="font-size: 12px;text-align: center;color: #fc6d36;">
@@ -38,9 +38,9 @@
       </h4>
       <p>
        {{ product.short_description | slice:0:152 }}
-       <small>
+       <a [href]="product.url" target="_blank">
           بیشتر بدانید
-        </small>
+       </a>
       </p>
 
       </div>
