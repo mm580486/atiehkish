@@ -7,8 +7,9 @@ export const products =
       description: 'توپ با الویت ارائه ی برنامه های مربوط به مادر و کودک دارای دسته بندی های متفاوتی است و به گونه ای طراحی شده، که به راحتی می توان اپ های مختلف را در آن جستجو کرد و یافت. همچنین، توسعه دهندگان اپلیکیشن نیز می توانند از امکانات ویژه ی آن بهرمند شوند و از طریق این بازار، برنامه های خود را در اختیار کاربران قرار دهند.',
       // tslint:disable-next-line:max-line-length
       short_description: 'توپ با الویت ارائه ی برنامه های مربوط به مادر و کودک دارای دسته بندی های متفاوتی است و به گونه ای طراحی شده، که به راحتی می توان اپ های مختلف را در...',
-      logo_url: 'https://toopmarket.com/design/images/logo_header_toop.png',
-      background_image_url: 'https://toopmarket.com/design/images/banner-phone1.png',
+      real_logo_url: 'https://toopmarket.com/design/images/logo_header_toop.png',
+      logo_url: '/assets/img/logo-box-toop.png',
+      background_image_url: '/assets/img/bg-toop.jpg',
       url: 'https://toopmarket.com',
       phone: '02188391328'
     },
@@ -18,8 +19,9 @@ export const products =
       slogan: 'پلتفرم هوشمند تبلیغات ',
       description: 'ادوک يـــكي از نقــاط راهبــــردي شــــركت آتيـه ارتباط كيش است كه در زمينه تبليغات مجازي و ارسال نوتيفيـــكيــشن هاي تبليغــــاتي فعاليـــت مي كند. ادوک پلتفـــرمي اســـت كـــه تبليــــغات درفضــــاي مجـــــازي را مديريـــــت كـــرده و از طريــــق آن توسعه دهندگان و تبليغ كنندگان، به راحتي مي توانند خدمـات مورد نظر خود را دريافت نمايند. ادوک امكان ارسال، مديريـت، انتخـــاب نوع كانال توزيــع، بسـتر و روشـــهاي انجام تبلیـــغ را در اختيار كاربـــران قرار مي دهد و از امكان ارائه آمار و ايجاد ارتبـاط مؤثــر با آنان برخوردار است.',
       short_description: 'ادوک يـــكي از نقــاط راهبــــردي شــــركت آتيـه ارتباط كيش است كه در زمينه تبليغات مجازي و ارسال نوتيفيـــكيــشن هاي تبليغــــاتي فعاليـــت مي كند...',
-      logo_url: 'http://adok.ir/contents/uploads/2018/01/logo-1-1.png',
-      background_image_url: 'http://ashabrasaneh.ir/addok/contents/uploads/2018/01/onepage-slide-2-1.jpg',
+      real_logo_url: 'http://adok.ir/contents/uploads/2018/01/logo-1-1.png',
+      logo_url: '/assets/img/logo-box-adok.png',
+      background_image_url: '/assets/img/bg-adok.jpg',
       url: 'http://adok.ir',
       phone: '02188391328'
     },
@@ -30,8 +32,9 @@ export const products =
       slogan: 'پیام رسان امن داخلی',
       description: 'کمـــان پيام رســـاني امن، مطمئن و داخلــي است كه نسخـــه اوليـــه آن توسط تيم پژوهــــش و برنامـه نويســـي شركت آتيـــه ارتباط كيـــــش در سال 1396 رونمايــي شده و  هم اكنـــون در حال توسعـــه و ارتـــقا  مي باشــد. کمان بر اساس ضرورت استفاده از پيام رساني داخلي، با دو رويكرد عمومي و سازماني و پيــاده سازي بستــري براي خلق كسب و كارهاي مبتني بر شبكه هاي مجازي توليد شده است.کمان در راستاي توسعه خويش از مزايايي نظير مديريت ذخيره سازي مديا، مديريت جريان ارتباط، فناوري و متدلوژي مناسب، مقياس پذيري، گرافيك زيبــا و امنيــت بالا بهره برده است.',
       short_description: 'کمـــان پيام رســـاني امن، مطمئن و داخلــي است كه نسخـــه اوليـــه آن توسط تيم پژوهــــش و برنامـه نويســـي شركت آتيـــه ارتباط كيـــــش در سال 1396...',
-      logo_url: 'https://s.cafebazaar.ir/1/icons/com.kamanapp.messenger_512x512.png',
-      background_image_url: 'https://picsum.photos/200/300',
+      real_logo_url: 'https://s.cafebazaar.ir/1/icons/com.kamanapp.messenger_512x512.png',
+      logo_url: '/assets/img/logo-box-kaman.png',
+      background_image_url: '/assets/img/bg-kaman.jpg',
       url: 'https://test.com',
       phone: '02188391328'
     },
@@ -54,8 +57,9 @@ export const products =
       slogan: 'سفارش اینترنتی بسته های پذیرایی',
       description: 'مهمانو یک روش جدید خرید پذیرایی میان وعده است که برای اولین بار در ایران از شهریور ۹۶ شروع به کار کرد. همه می دونیم آماده کردن پذیرایی خوب و کامل یه رویداد چقدر کار سختیه. اونم وقتی که برگزارکنندگان رویداد درگیر کارهای اجرایی و هماهنگی های برگزاری مراسم هستن. مهمانو استارتاپیه که به جهت حل این مشکل راه اندازی شده.',
       short_description: 'مهمانو یک روش جدید خرید پذیرایی میان وعده است که برای اولین بار در ایران از شهریور ۹۶ شروع به کار کرد... ',
-      logo_url: 'https://mehmano.com/img/logo.png',
-      background_image_url: 'https://mehmano.com/img/back1.jpg',
+      real_logo_url: 'https://mehmano.com/img/logo.png',
+      logo_url: '/assets/img/logo-box-mehmano.png',
+      background_image_url: '/assets/img/bg-mehmano.jpg',
       url: 'https://mehmano.ir',
       phone: '02188391328'
     },
