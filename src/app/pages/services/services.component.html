@@ -3,14 +3,13 @@
 
   <div class="col-lg-12 nopadding Parent">
   <section class="container p-3">
-<h1 style="color: #666666;">
-  سرویس ها و خدمات 
-  <img src="assets/img/svg/PR h.svg" style="position: absolute;left: 21%;width:62px;" alt="">
-</h1>
-<br>
-<br>
+
 
 <div class="row">
+  <h1 style="color: #666666;">
+    سرویس ها و خدمات 
+    <img src="assets/img/svg/SE h.svg" style="float:right;width:62px;" alt="">
+  </h1>
 
 <article class="card col-xs-12 col-lg-12" style="background: #ffffff36;z-index:2;">
   <div class="card-body">
@@ -28,7 +27,7 @@
 
     <div class="row products">
 
-      <div *ngFor='let product of products' style="margin-top:10px;" [routerLink]="['/start', product.permalink]" class="card col-xs-12 col-lg-3 col-lg-3 col-lg-3 col-lg-3 col-lg-4">
+      <div *ngFor='let product of products' style="margin-top:10px;" [routerLink]="['/service', product.permalink]" class="card col-xs-12 col-lg-3 col-lg-3 col-lg-3 col-lg-3 col-lg-4">
         
         <img [src]="product.logo_url" alt="">
 
@@ -56,22 +55,3 @@
   </div>
   </div>
 
-<div style="  position: absolute;
-right: 12%;
-top: 31%;
-width:100%;
-
-border-bottom: 1px solid lightgray;
-  height: 20px;
-  z-index: 1;
-">
-  <i class="fa fa-arrow-left arrow-left" style="    background: #fc6d36;
-  color: white;
-  width: 40px;
-  float: right;
-  height: 40px;
-  border-radius: 92px;
-  padding: 12px;
-  font-size: 18px;
-"></i>
-</div>

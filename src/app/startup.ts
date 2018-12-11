@@ -19,8 +19,9 @@ export const startup =
       slogan: 'اپلیکیشن ساز تلفن همراه',
       description: 'با خوشه آپ هرکسی می تواند بدون دانش برنامه نویسی اپ بنویسید. خوشه اپ پلتفرم اپلیکیشن ساز شرکت آتیه ارتباط کیش است و امکان آن را فراهم می آورد تا کاربران بدون کوچکترین دانش برنامه نویسی، اپلیکیشن های بسیار قدرتمند و با امکانات فراوان تهیه نمایند.',
       short_description: 'با خوشه آپ هرکسی می تواند بدون دانش برنامه نویسی اپ بنویسید. خوشه اپ پلتفرم اپلیکیشن ساز شرکت آتیه ارتباط کیش است و امکان آن را فراهم می آورد تا کاربران بدون کوچکترین دانش برنامه نویسی، اپلیکیشن های بسیار قدرتمند و با امکانات فراوان تهیه نمایند.',
-      logo_url: 'http://www.khooshehapps.ir/assets/img/arm_header.png',
-      background_image_url: 'http://www.khooshehapps.ir/assets/img/home_banner_front_img.png',
+      real_logo_url: 'http://www.khooshehapps.ir/assets/img/arm_header.png',
+      logo_url: '/assets/img/logo-box-khoshe.png',
+      background_image_url: '/assets/img/bg-khoshe.jpg',
       url: 'http://www.khooshehapps.ir',
       phone: '02188391328'
     },

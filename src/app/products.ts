@@ -45,8 +45,9 @@ export const products =
       slogan: 'مجله فناوری های نوین',
       description: 'رایانما اولین نشریه تخصصی فناوری های نوین اطلاعات و ارتباطات است. رایانما می کوشند تا مخاطبان خود را در بستری آکنده از آموزش با جدیدترین تحولات ایران و جهان در حوزه های فناوری های نوین اطلاعاتی و ارتباطی قرار دهد. رایانما درگاه ورود به انقلاب چهارم صنعتی و ابزاری برای ورود به عرصه های مختلف دانش بنیان در دنیای فناوری ها و نوآوری روزمرست.',
       short_description: 'رایانما اولین نشریه تخصصی فناوری های نوین اطلاعات و ارتباطات است. رایانما می کوشند تا مخاطبان خود را در بستری آکنده از آموزش با جدیدترین تحولات ایران...',
-      logo_url: '/assets/img/raya.jpg',
-      background_image_url: 'https://picsum.photos/200/300',
+      real_logo_url: '/assets/img/raya.jpg',
+      logo_url: '/assets/img/logo-box-rayanama.png',
+      background_image_url: '/assets/img/bg-rayanama.jpg',
       url: 'http://rayanama.ir',
       phone: '02188391328'
     },

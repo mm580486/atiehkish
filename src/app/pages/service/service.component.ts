@@ -16,7 +16,7 @@ export class ServiceComponent implements OnInit {
   constructor(private route: Router, private router: ActivatedRoute) {
     this.route.events.subscribe(params => {
       this.products = services;
-      this.mySlideOptions = {items: 1, dots: false, nav: true, margin: 10, lazyLoad: true,
+      this.mySlideOptions = {items: 1, dots: false, nav: false, margin: 10, lazyLoad: true,
         itemsDesktop: [1400, 1],
         itemsDesktopSmall: [1100, 1],
         itemsTablet: [700, 1],

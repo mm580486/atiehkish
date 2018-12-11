@@ -39,11 +39,14 @@
 }
 /deep/.logo_slide{
     width: 100%;
-    height:200px !important;
+    height:auto !important;
+}
+/deep/.owl-stage,/deep/.owl-stage-outer,/deep/.owl-theme{
+    height:100px;
 }
 /deep/.title_slide{
     background-color: #00000059;
-    height: 70px;
+    height: 40px;
     color: white;
     padding: 10px;
     text-align: center;

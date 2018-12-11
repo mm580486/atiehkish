@@ -15,7 +15,7 @@
       <div class="description">
         <img [src]="product.logo_url" alt="">
         <br>
-        <p>
+        <p style="text-align:center;">
           {{ product.slogan }}
         </p>
       </div>
@@ -42,10 +42,10 @@
 
 
   <owl-carousel [options]="mySlideOptions" [items]="products" [carouselClasses]="['owl-theme', 'sliding','home-slider']" >
-      <div [routerLink]="['/product',item.permalink]" class="item" *ngFor="let item of products;let i = index">
+      <div [routerLink]="['/service',item.permalink]" class="item" *ngFor="let item of products;let i = index">
        <div>
          <img [src]='item.logo_url' class='logo_slide' />
-         <div class="title_slide" [routerLink]="['/product',item.permalink]">
+         <div class="title_slide" [routerLink]="['/service',item.permalink]">
            {{ item.title }}
          </div>
        </div>
