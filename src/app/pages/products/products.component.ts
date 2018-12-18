@@ -17,7 +17,8 @@ export class ProductsComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.mySlideImages = [1, 2, 3, 4, 5, 6].map((i) => `https://picsum.photos/640/480?image=${i}`);
+    // tslint:disable-next-line:max-line-length
+    this.mySlideImages = ['/assets/img/slider/01.jpg', '/assets/img/slider/13.jpg', '/assets/img/slider/10.jpg', '/assets/img/slider/04.jpg','/assets/img/slider/12.jpg'];
     this.myCarouselImages = [1, 2, 3, 4, 5, 6].map((i) => `https://picsum.photos/640/480?image=${i}`);
     this.mySlideOptions = {
       items: 1,

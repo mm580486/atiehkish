@@ -18,7 +18,7 @@ export class StartupComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.mySlideImages = [1, 2, 3, 4, 5, 6].map((i) => `https://picsum.photos/640/480?image=${i}`);
+    this.mySlideImages = ['/assets/img/slider/04.jpg', '/assets/img/slider/11.jpg', '/assets/img/slider/12.jpg'];
     this.myCarouselImages = [1, 2, 3, 4, 5, 6].map((i) => `https://picsum.photos/640/480?image=${i}`);
     this.mySlideOptions = {items: 1, dots: false, nav: true, margin: 10, autoPlay: true, loop: true, autoplay: true, autoplayTimeout: 4000};
     this.myCarouselOptions = {items: 1, dots: true, nav: true,
