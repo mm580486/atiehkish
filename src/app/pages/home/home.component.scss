@@ -39,7 +39,10 @@ section{
     right: 10px;
     top: 40px;
     padding: 10px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box;
     img{
         display:block;
         margin:auto;
@@ -62,9 +65,13 @@ section{
     }
 }
 
+.at_logo{
+    width:200px;
+}
+
 @media(max-width: 500px){
     /deep/.at_logo{
-  
+     
         display:block;
         margin:auto;
     }

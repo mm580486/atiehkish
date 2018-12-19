@@ -41,7 +41,7 @@
 
 
 
-  <owl-carousel [options]="mySlideOptions" [items]="products" [carouselClasses]="['owl-theme', 'sliding','home-slider']" >
+  <owl-carousel [options]="mySlideOptions" [items]="products" [carouselClasses]="['owl-theme', 'sliding','hh']" >
       <div [routerLink]="['/product',item.permalink]" class="item" *ngFor="let item of products;let i = index">
        <div [routerLink]="['/product',item.permalink]">
          <img [routerLink]="['/product',item.permalink]" [src]='item.logo_url' class='logo_slide' />
